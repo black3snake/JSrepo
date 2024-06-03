@@ -11,7 +11,7 @@ myFn(2 + 3)   // выражение
 myFn(b)     // вы
 myFn(c = c + 1) // выр
 myFn(c = c + 1;) // Uncaught syntax err
-myFn(let d)         // Uncaught syntax err
+myFn(let d)         // Uncaught syntax err 
 
 
 

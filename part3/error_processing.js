@@ -1,6 +1,15 @@
+// Обработка ошибок
+
 const ftWithError = () => {
-    throw new Error('Какая та ощибка')
+    throw new Error('Какая та ошибка')
 }
 
-ftWithError()
+try {
+    ftWithError()
+
+} catch (error) {
+    console.error(error)
+    console.log(error.message)
+}
 console.log('Continue..')
+

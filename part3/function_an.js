@@ -1,6 +1,6 @@
 console.log('Функциональные выражения')
 
-const myFn = function(a,b) {
+const myFn = function(a, b) {
     let c
     ++a
     return c = a + b

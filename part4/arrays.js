@@ -31,7 +31,7 @@ const newArray2 = array1.map((el) => {   // если отсутсвует return
     el * 3
     // return el * 3  // нужно поставить вместо строки выше  (возврят результата явно)
 })
-const newArray3 = array1.map(function(el) {  
+const newArray3 = array1.map(function(el) {  // анонимное функциональное выражение
     return el * 3 
 })
 console.log(newArray)
